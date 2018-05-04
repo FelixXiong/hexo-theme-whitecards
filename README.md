@@ -4,6 +4,7 @@ Based on hexo theme light
 基于Light主要样式进行自定义修改，部分中国服务代码来源于light-cn，在此列出他们的地址。
 
 Light theme on github:[hexo-theme-light](https://github.com/hexojs/hexo-theme-light)
+
 Light-CN theme cn on github:[Hexo-theme-light_cn](https://github.com/pengloo53/Hexo-theme-light_cn)
 
 ## Preview：
