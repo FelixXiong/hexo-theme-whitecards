@@ -1,0 +1,123 @@
+# Blog _config.yml
+
+# Menu settings------------------------------------------------------------------------------------------------------------------------------------------
+
+menu:
+  Home:
+  Archives: /archives
+  Tags: /tags 
+  Categories: /categories 
+  Page: /page
+  Post: /post
+  #Schedule: /schedule 
+  #Sitemap: /sitemap.xml 
+  #Commonweal: /404 
+  WechatPubilc: /wechatpubilcaccount # Account
+  Portfolio: /portfolio
+  Github: #https://github.com/yourmname
+  About: /about 
+  #RSS: /rss
+  #Preview: /preview
+
+widgets:
+- search
+- recent_posts
+- category
+- tagcloud
+#- tag
+- calendar
+- links
+- weibo
+#- twitter
+#- weixin
+
+# Article settings ---------------------------------------------------------------------------------------------------------------------------------------
+
+## toc settings ---------------------------------------------------------------------------------------------------------------------------------------
+
+toc:
+
+ # Table Of Contents in the Sidebar
+ enable: true
+
+ # Automatically add list number to toc.
+ number: false
+
+ # If true, all words will placed on next lines if header width longer then sidebar width.
+ wrap: false
+
+## Comment settings---------------------------------------------------------------------------------------------------------------------------------------
+
+##这里如果需要添加评论服务需要添加ejs文件，路径位于：你的hexo目录/themes/light/layout/_partial
+
+comment_provider: gitment
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+## Share settings----------------------------------------------------------------------------------------------------------------------------------------
+
+# baidu share
+
+baidu_share: false
+
+excerpt_link: Read More
+#comment_link: Comments
+
+#Header settings-----------------------------------------------------------------------------------------------------------------------------------------
+
+# header
+avatar: /img/default/avatar.png
+# header右侧图片展示
+ad: 
+
+# 请到after_footer.ejs中替换百度统计代码
+
+baidu_tongji: false
+
+# Sidebar Settings --------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Widget settings --------------------------------------------------------------------------------------------------------------------------------------
+
+# 微博: height小挂件高度；url替换成自己的微博挂件地址，同步修改url中height的值
+weibo:
+  height: 550
+  url: http://widget.weibo.com/weiboshow/index.php?……
+  #tweet_count: 5
+
+twitter:
+  username: 
+  show_replies: false
+  tweet_count: 5
+
+# Calendar
+calendar:
+  language: zh-CN
+  root: calendar
+
+# Wechat
+Wechat:
+  qrcode: /img/default/qrcode.jpg
+  alt: 欢迎关注个人公众账号
+
+# friendly links
+links:
+  #: http://
+
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics:
+
+rss:
